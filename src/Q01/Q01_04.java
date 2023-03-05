@@ -1,4 +1,5 @@
-import java.util.Arrays;
+package Q01;
+
 import java.util.Scanner;
 
 public class Q01_04 {
