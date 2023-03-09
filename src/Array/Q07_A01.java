@@ -1,8 +1,8 @@
-package Q02;
+package Array;
 
 import java.util.Scanner;
 
-public class Q02_07 {
+public class Q07_A01 {
 
     public int solution(int[] array) {
         int answer = 0;
@@ -19,13 +19,13 @@ public class Q02_07 {
     }
 
     public static void main(String[] args) {
-        Q02_07 q02_07 = new Q02_07();
+        Q07_A01 q07_A01 = new Q07_A01();
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         int[] array = new int[number];
         for (int i = 0; i < array.length; i++) {
             array[i] = sc.nextInt();
         }
-        System.out.println(q02_07.solution(array));
+        System.out.println(q07_A01.solution(array));
     }
 }

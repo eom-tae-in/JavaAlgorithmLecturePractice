@@ -1,8 +1,8 @@
-package Q01;
+package String;
 
 import java.util.Scanner;
 
-public class Q01_01 {
+public class Q01_A01 {
 
     public int solution(String str, char c) {
         int answer = 0;
@@ -18,10 +18,10 @@ public class Q01_01 {
     }
 
     public static void main(String[] args) {
-        Q01_01 q01_01 = new Q01_01();
+        Q01_A01 q01_A01 = new Q01_A01();
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         char c = sc.next().charAt(0);
-        System.out.println(q01_01.solution(str, c));
+        System.out.println(q01_A01.solution(str, c));
     }
 }

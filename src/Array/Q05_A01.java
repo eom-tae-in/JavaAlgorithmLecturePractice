@@ -1,8 +1,8 @@
-package Q02;
+package Array;
 
 import java.util.Scanner;
 
-public class Q02_05 {
+public class Q05_A01 {
 
     public int eratosthenes(int number) {
         int answer = 0;
@@ -19,9 +19,9 @@ public class Q02_05 {
     }
 
     public static void main(String[] args) {
-        Q02_05 q02_05 = new Q02_05();
+        Q05_A01 q05_A01 = new Q05_A01();
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
-        System.out.println(q02_05.eratosthenes(number));
+        System.out.println(q05_A01.eratosthenes(number));
     }
 }

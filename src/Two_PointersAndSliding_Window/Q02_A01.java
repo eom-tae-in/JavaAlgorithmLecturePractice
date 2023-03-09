@@ -1,10 +1,10 @@
-package Q03;
+package Two_PointersAndSliding_Window;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Q03_02 {
+public class Q02_A01 {
 
     public ArrayList<Integer> solution(int[] arr1, int[] arr2) {
         ArrayList<Integer> answer = new ArrayList<>();
@@ -26,7 +26,7 @@ public class Q03_02 {
     }
 
     public static void main(String[] args) {
-        Q03_02 q03_02 = new Q03_02();
+        Q02_A01 q02_A01 = new Q02_A01();
         Scanner sc = new Scanner(System.in);
         int num1 = sc.nextInt();
         int[] arr1 = new int[num1];
@@ -38,7 +38,7 @@ public class Q03_02 {
         for (int i = 0; i < num2; i++) {
             arr2[i] = sc.nextInt();
         }
-        for (int i : q03_02.solution(arr1, arr2)) {
+        for (int i : q02_A01.solution(arr1, arr2)) {
             System.out.print(i + " ");
         }
     }

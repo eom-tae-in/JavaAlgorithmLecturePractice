@@ -1,8 +1,8 @@
-package Q02;
+package Array;
 
 import java.util.Scanner;
 
-public class Q02_04 {
+public class Q04_A01 {
 
     public int[] solution(int number) {
         int[] fibonacci = new int[number];
@@ -15,10 +15,10 @@ public class Q02_04 {
     }
 
     public static void main(String[] args) {
-        Q02_04 q02_04 = new Q02_04();
+        Q04_A01 q04_A01 = new Q04_A01();
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
-        for (int i : q02_04.solution(number)) {
+        for (int i : q04_A01.solution(number)) {
             System.out.print(i + " ");
         }
     }

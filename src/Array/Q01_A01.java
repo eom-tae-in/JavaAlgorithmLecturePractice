@@ -1,12 +1,9 @@
-package Q02;
+package Array;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.concurrent.ForkJoinPool;
-import java.util.concurrent.RecursiveAction;
-import java.util.concurrent.RecursiveTask;
 
-public class Q02_01 {
+public class Q01_A01 {
     public ArrayList<Integer> solution(int[] array, int n) {
         ArrayList<Integer> list = new ArrayList<>();
         list.add(array[0]);
@@ -19,14 +16,14 @@ public class Q02_01 {
     }
 
     public static void main(String[] args) {
-        Q02_01 q02_01 = new Q02_01();
+        Q01_A01 q01_A01 = new Q01_A01();
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] array = new int[n];
         for (int i = 0; i < array.length; i++) {
             array[i] = sc.nextInt();
         }
-        for (int i : q02_01.solution(array, n)) {
+        for (int i : q01_A01.solution(array, n)) {
             System.out.print(i + " ");
         }
     }

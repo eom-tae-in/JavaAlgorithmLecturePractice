@@ -1,8 +1,8 @@
-package Q03;
+package Two_PointersAndSliding_Window;
 
 import java.util.Scanner;
 
-public class Q03_05_1 {
+public class Q05_A01 {
 
     public int solution(int num) {
         int answer = 0, sum = 0, lt = 0;
@@ -26,9 +26,9 @@ public class Q03_05_1 {
     }
 
     public static void main(String[] args) {
-        Q03_05_1 q03_05 = new Q03_05_1();
+        Q05_A01 q05_A01 = new Q05_A01();
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        System.out.println(q03_05.solution(num));
+        System.out.println(q05_A01.solution(num));
     }
 }

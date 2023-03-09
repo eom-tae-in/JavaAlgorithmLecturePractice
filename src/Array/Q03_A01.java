@@ -1,8 +1,8 @@
-package Q02;
+package Array;
 
 import java.util.Scanner;
 
-public class Q02_03 {
+public class Q03_A01 {
     // 1: 가위, 2:바위, 3: 보
     final static int SCISSORS = 1;
     final static int ROCK = 2;
@@ -18,7 +18,7 @@ public class Q02_03 {
     }
 
     public static void main(String[] args) {
-        Q02_03 q02_03 = new Q02_03();
+        Q03_A01 q03_A01 = new Q03_A01();
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         int[] A = new int[number];
@@ -30,7 +30,7 @@ public class Q02_03 {
             B[i] = sc.nextInt();
         }
         for (int i = 0; i < number; i++) {
-            System.out.println(q02_03.solution(A[i], B[i]));
+            System.out.println(q03_A01.solution(A[i], B[i]));
         }
     }
 

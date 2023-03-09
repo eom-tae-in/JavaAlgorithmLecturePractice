@@ -1,9 +1,9 @@
-package Q02;
+package Array;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Q02_06 {
+public class Q06_A01 {
 
     public ArrayList<Integer> solution(int[] array) {
         ArrayList<Integer> list = new ArrayList<>();
@@ -17,14 +17,14 @@ public class Q02_06 {
     }
 
     public static void main(String[] args) {
-        Q02_06 q02_06 = new Q02_06();
+        Q06_A01 q06_A01 = new Q06_A01();
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         int[] array = new int[number];
         for (int i = 0; i < number; i++) {
             array[i] = sc.nextInt();
         }
-        for (int i : q02_06.solution(array)) {
+        for (int i : q06_A01.solution(array)) {
             System.out.print(i + " ");
         }
     }

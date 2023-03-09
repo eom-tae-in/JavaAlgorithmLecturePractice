@@ -1,8 +1,8 @@
-package Q01;
+package String;
 
 import java.util.Scanner;
 
-public class Q01_10 {
+public class Q10_A01 {
 
     final static int MAX_INDEX_LENGTH = 100;
 
@@ -31,12 +31,12 @@ public class Q01_10 {
     }
 
     public static void main(String[] args) {
-        Q01_10 q01_10 = new Q01_10();
+        Q10_A01 q10_A01 = new Q10_A01();
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         char ch = sc.next().charAt(0);
 
-        for (int i : q01_10.solution(str, ch)) {
+        for (int i : q10_A01.solution(str, ch)) {
             System.out.print(i + " ");
         }
     }

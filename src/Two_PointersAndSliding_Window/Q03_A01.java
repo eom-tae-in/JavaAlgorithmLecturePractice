@@ -1,8 +1,8 @@
-package Q03;
+package Two_PointersAndSliding_Window;
 
 import java.util.Scanner;
 
-public class Q03_03 {
+public class Q03_A01 {
     public int solution(int[] days, int number) {
         int answer, sum = 0;
         for (int i = 0; i < number; i++) {
@@ -17,7 +17,7 @@ public class Q03_03 {
     }
 
     public static void main(String[] args) {
-        Q03_03 q03_03 = new Q03_03();
+        Q03_A01 q03_A01 = new Q03_A01();
         Scanner sc = new Scanner(System.in);
         int day = sc.nextInt();
         int number = sc.nextInt();
@@ -25,6 +25,6 @@ public class Q03_03 {
         for (int i = 0; i < day; i++) {
             days[i] = sc.nextInt();
         }
-        System.out.println(q03_03.solution(days, number));
+        System.out.println(q03_A01.solution(days, number));
     }
 }
