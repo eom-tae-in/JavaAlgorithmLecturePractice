@@ -10,7 +10,6 @@ class Node {
 
 public class Q05_A01 {
     Node node;
-
     public void prefix(Node root) {
         if (root == null) {
             return;
